@@ -44,8 +44,8 @@ def risk3():
 	return render_template("risk3.html")
 
 @app.route("/hotels")
-def hotels():
-	return render_template("hotels.html", hotel=hotels)
+def _hotels():
+	return render_template("hotels.html", hote=hotels)
 
 
 #start website
